@@ -1,4 +1,5 @@
 #include "Graph.h"
+#include <queue>
 #include <algorithm>
 using namespace std;
 
@@ -14,6 +15,22 @@ void Graph::addEdge(const string& v1, const string& v2, int distance) {
 
 bool Graph::containsVertex(const string& name) const {
     return adjList.count(name) > 0;
+}
+
+// BFS is enough to simply check whether a path exists.
+bool Graph::hasPath(const string& src, const string& dst) const {
+    if (!containsVertex(src) || !containsVertex(dst)) return false;
+    unordered_map<string, bool> visited;
+    queue<string> q;
+    q.push(src);
+    visited[src] = true;
+    while (!q.empty()) {
+        string curr = q.front(); q.pop();
+        if (curr == dst) return true;
+        for (const auto& [next, dist] : adjList.at(curr))
+            if (!visited[next]) { visited[next] = true; q.push(next); }
+    }
+    return false;
 }
 
 vector<string> Graph::getNeighbors(const string& name) const {
