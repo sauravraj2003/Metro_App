@@ -1,0 +1,87 @@
+# Delhi Metro Connection Data
+# Format: STATION_CODE1|STATION_CODE2|DISTANCE_KM
+# Distances are realistic approximations based on the actual DMRC network.
+#
+# -----------------------------------------------------------------------
+# YELLOW LINE connections (Samaypur Badli to Huda City Centre)
+# -----------------------------------------------------------------------
+SB|RE|3
+RE|VV|5
+VV|KG|4
+KG|CC|2
+CC|ND|2
+ND|RC|1
+RC|CS|2
+CS|INA|4
+INA|AMS|2
+AMS|HK|2
+HK|SK|5
+SK|HC|18
+#
+# -----------------------------------------------------------------------
+# BLUE LINE connections (Dwarka Sector 21 to Vaishali / Noida Sector 62)
+# -----------------------------------------------------------------------
+DS21|DW|2
+DW|JW|8
+JW|RG|4
+RG|MN|3
+MN|KB|4
+KB|RC|2
+RC|BR|1
+BR|MH|2
+MH|YB|4
+YB|VS|8
+YB|BG|11
+BG|NS62|8
+#
+# -----------------------------------------------------------------------
+# RED LINE connections (Dilshad Garden towards Rithala)
+# -----------------------------------------------------------------------
+DG|WL|3
+WL|KG|5
+KG|IL|6
+IL|NSP|5
+#
+# -----------------------------------------------------------------------
+# GREEN LINE connections (Inderlok to Punjabi Bagh West)
+# -----------------------------------------------------------------------
+IL|APM|2
+APM|PBW|3
+#
+# -----------------------------------------------------------------------
+# VIOLET LINE connections (Kashmere Gate to Badarpur Border)
+# -----------------------------------------------------------------------
+KG|MH|5
+MH|CS|2
+CS|LN|4
+LN|BB|12
+#
+# -----------------------------------------------------------------------
+# PINK LINE connections (Majlis Park to Welcome via Rajouri Garden)
+# -----------------------------------------------------------------------
+MP|NSP|6
+NSP|PBW|3
+PBW|RG|3
+RG|INA|8
+INA|LN|3
+LN|MVP|10
+MVP|WL|6
+#
+# -----------------------------------------------------------------------
+# MAGENTA LINE connections (Janakpuri West to Botanical Garden)
+# -----------------------------------------------------------------------
+JW|IA|12
+IA|HK|12
+HK|BG|17
+#
+# -----------------------------------------------------------------------
+# GREY LINE connections (Dwarka to Najafgarh)
+# -----------------------------------------------------------------------
+DW|NF|10
+#
+# -----------------------------------------------------------------------
+# ORANGE LINE connections (Airport Express: New Delhi to Dwarka Sector 21)
+# -----------------------------------------------------------------------
+ND|SS|3
+SS|IA|16
+IA|DS21|5

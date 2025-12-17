@@ -1,0 +1,77 @@
+# Delhi Metro Station Data
+# Format: CODE|NAME|LINE1,LINE2,...|IS_INTERCHANGE(0=Regular, 1=Interchange)
+# Lines: Yellow, Blue, Red, Green, Violet, Pink, Magenta, Grey, Orange
+#
+# -----------------------------------------------------------------------
+# YELLOW LINE (Line 2) - Samaypur Badli to Huda City Centre
+# -----------------------------------------------------------------------
+SB|Samaypur Badli|Yellow Line|0
+RE|Rohini East|Yellow Line|0
+VV|Vishwavidyalaya|Yellow Line|0
+KG|Kashmere Gate|Yellow Line,Red Line,Violet Line|1
+CC|Chandni Chowk|Yellow Line|0
+ND|New Delhi|Yellow Line,Orange Line|1
+RC|Rajiv Chowk|Yellow Line,Blue Line|1
+CS|Central Secretariat|Yellow Line,Violet Line|1
+INA|INA|Yellow Line,Pink Line|1
+AMS|AIIMS|Yellow Line|0
+HK|Hauz Khas|Yellow Line,Magenta Line|1
+SK|Saket|Yellow Line|0
+HC|Huda City Centre|Yellow Line|0
+#
+# -----------------------------------------------------------------------
+# BLUE LINE (Line 3/4) - Dwarka Sector 21 to Vaishali / Noida Sector 62
+# -----------------------------------------------------------------------
+DS21|Dwarka Sector 21|Blue Line,Orange Line|1
+DW|Dwarka|Blue Line,Grey Line|1
+JW|Janakpuri West|Blue Line,Magenta Line|1
+RG|Rajouri Garden|Blue Line,Pink Line|1
+MN|Moti Nagar|Blue Line|0
+KB|Karol Bagh|Blue Line|0
+BR|Barakhamba Road|Blue Line|0
+MH|Mandi House|Blue Line,Violet Line|1
+YB|Yamuna Bank|Blue Line|0
+VS|Vaishali|Blue Line|0
+BG|Botanical Garden|Blue Line,Magenta Line|1
+NS62|Noida Sector 62|Blue Line|0
+#
+# -----------------------------------------------------------------------
+# RED LINE (Line 1) - Dilshad Garden to Rithala (key stations)
+# -----------------------------------------------------------------------
+DG|Dilshad Garden|Red Line|0
+WL|Welcome|Red Line,Pink Line|1
+IL|Inderlok|Red Line,Green Line|1
+NSP|Netaji Subhash Place|Red Line,Pink Line|1
+#
+# -----------------------------------------------------------------------
+# GREEN LINE (Line 5) - Inderlok to Brigadier Hoshiyar Singh (key stations)
+# -----------------------------------------------------------------------
+APM|Ashok Park Main|Green Line|0
+PBW|Punjabi Bagh West|Green Line,Pink Line|1
+#
+# -----------------------------------------------------------------------
+# VIOLET LINE (Line 6) - Kashmere Gate to Ballabhgarh (key stations)
+# -----------------------------------------------------------------------
+LN|Lajpat Nagar|Violet Line,Pink Line|1
+BB|Badarpur Border|Violet Line|0
+#
+# -----------------------------------------------------------------------
+# PINK LINE (Line 7) - Majlis Park to Shiv Vihar (key stations)
+# -----------------------------------------------------------------------
+MP|Majlis Park|Pink Line|0
+MVP|Mayur Vihar Phase I|Pink Line|0
+#
+# -----------------------------------------------------------------------
+# MAGENTA LINE (Line 8) - Janakpuri West to Botanical Garden
+# -----------------------------------------------------------------------
+IA|IGI Airport|Magenta Line,Orange Line|1
+#
+# -----------------------------------------------------------------------
+# GREY LINE (Line 9) - Dwarka to Najafgarh
+# -----------------------------------------------------------------------
+NF|Najafgarh|Grey Line|0
+#
+# -----------------------------------------------------------------------
+# ORANGE LINE (Line 10) - Airport Express: New Delhi to Dwarka Sector 21
+# -----------------------------------------------------------------------
+SS|Shivaji Stadium|Orange Line|0
